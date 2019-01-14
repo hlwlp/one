@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		555768AA21EC39F40027C58C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 555768A921EC39F40027C58C /* AppDelegate.m */; };
+		555768AD21EC39F40027C58C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 555768AC21EC39F40027C58C /* ViewController.m */; };
+		555768B021EC39F40027C58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555768AE21EC39F40027C58C /* Main.storyboard */; };
+		555768B221EC39F60027C58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 555768B121EC39F60027C58C /* Assets.xcassets */; };
+		555768B521EC39F60027C58C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 555768B321EC39F60027C58C /* LaunchScreen.storyboard */; };
+		555768B821EC39F60027C58C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 555768B721EC39F60027C58C /* main.m */; };
+		555768C221EC39F60027C58C /* onekinsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555768C121EC39F60027C58C /* onekinsTests.m */; };
+		555768CD21EC39F60027C58C /* onekinsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 555768CC21EC39F60027C58C /* onekinsUITests.m */; };
+		64B04F105307318E1F85AAD2 /* libPods-onekinsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2824DF8E51DB12A5771B4D /* libPods-onekinsTests.a */; };
+		8EA6B4145CCBBBAEE1ECF9CB /* libPods-onekinsUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E79E776906D638E152C71AF2 /* libPods-onekinsUITests.a */; };
+		FBB5D7253B85C6B7BDD08411 /* libPods-onekins.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 012D34ADEFD6A52F3D5B38FF /* libPods-onekins.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		555768BE21EC39F60027C58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5557689D21EC39F40027C58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555768A421EC39F40027C58C;
+			remoteInfo = onekins;
+		};
+		555768C921EC39F60027C58C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5557689D21EC39F40027C58C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 555768A421EC39F40027C58C;
+			remoteInfo = onekins;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012D34ADEFD6A52F3D5B38FF /* libPods-onekins.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onekins.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31477B4A4ADF7424070748A3 /* Pods-onekinsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekinsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onekinsUITests/Pods-onekinsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		333F2A039168DF8E357EA547 /* Pods-onekinsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekinsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onekinsTests/Pods-onekinsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E9C3BC078BE08ED8A1FAB04 /* Pods-onekinsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekinsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-onekinsUITests/Pods-onekinsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		555768A521EC39F40027C58C /* onekins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onekins.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		555768A821EC39F40027C58C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		555768A921EC39F40027C58C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		555768AB21EC39F40027C58C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		555768AC21EC39F40027C58C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		555768AF21EC39F40027C58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		555768B121EC39F60027C58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		555768B421EC39F60027C58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		555768B621EC39F60027C58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555768B721EC39F60027C58C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		555768BD21EC39F60027C58C /* onekinsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onekinsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555768C121EC39F60027C58C /* onekinsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = onekinsTests.m; sourceTree = "<group>"; };
+		555768C321EC39F60027C58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		555768C821EC39F60027C58C /* onekinsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = onekinsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		555768CC21EC39F60027C58C /* onekinsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = onekinsUITests.m; sourceTree = "<group>"; };
+		555768CE21EC39F60027C58C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E8FBC6F65EB5278FE94EC52 /* Pods-onekins.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekins.release.xcconfig"; path = "Pods/Target Support Files/Pods-onekins/Pods-onekins.release.xcconfig"; sourceTree = "<group>"; };
+		9E2A7DCB11A3B04E5883C04C /* Pods-onekins.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekins.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onekins/Pods-onekins.debug.xcconfig"; sourceTree = "<group>"; };
+		E79E776906D638E152C71AF2 /* libPods-onekinsUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onekinsUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC2824DF8E51DB12A5771B4D /* libPods-onekinsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onekinsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD299EF98CDE12B25AFEDB80 /* Pods-onekinsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onekinsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-onekinsTests/Pods-onekinsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		555768A221EC39F40027C58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBB5D7253B85C6B7BDD08411 /* libPods-onekins.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768BA21EC39F60027C58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64B04F105307318E1F85AAD2 /* libPods-onekinsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768C521EC39F60027C58C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA6B4145CCBBBAEE1ECF9CB /* libPods-onekinsUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5557689C21EC39F40027C58C = {
+			isa = PBXGroup;
+			children = (
+				555768A721EC39F40027C58C /* onekins */,
+				555768C021EC39F60027C58C /* onekinsTests */,
+				555768CB21EC39F60027C58C /* onekinsUITests */,
+				555768A621EC39F40027C58C /* Products */,
+				9B88E6EB083A010ED6B84095 /* Pods */,
+				86EA09C2E3682B48BDA0E79C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		555768A621EC39F40027C58C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				555768A521EC39F40027C58C /* onekins.app */,
+				555768BD21EC39F60027C58C /* onekinsTests.xctest */,
+				555768C821EC39F60027C58C /* onekinsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		555768A721EC39F40027C58C /* onekins */ = {
+			isa = PBXGroup;
+			children = (
+				555768A821EC39F40027C58C /* AppDelegate.h */,
+				555768A921EC39F40027C58C /* AppDelegate.m */,
+				555768AB21EC39F40027C58C /* ViewController.h */,
+				555768AC21EC39F40027C58C /* ViewController.m */,
+				555768AE21EC39F40027C58C /* Main.storyboard */,
+				555768B121EC39F60027C58C /* Assets.xcassets */,
+				555768B321EC39F60027C58C /* LaunchScreen.storyboard */,
+				555768B621EC39F60027C58C /* Info.plist */,
+				555768B721EC39F60027C58C /* main.m */,
+			);
+			path = onekins;
+			sourceTree = "<group>";
+		};
+		555768C021EC39F60027C58C /* onekinsTests */ = {
+			isa = PBXGroup;
+			children = (
+				555768C121EC39F60027C58C /* onekinsTests.m */,
+				555768C321EC39F60027C58C /* Info.plist */,
+			);
+			path = onekinsTests;
+			sourceTree = "<group>";
+		};
+		555768CB21EC39F60027C58C /* onekinsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				555768CC21EC39F60027C58C /* onekinsUITests.m */,
+				555768CE21EC39F60027C58C /* Info.plist */,
+			);
+			path = onekinsUITests;
+			sourceTree = "<group>";
+		};
+		86EA09C2E3682B48BDA0E79C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				012D34ADEFD6A52F3D5B38FF /* libPods-onekins.a */,
+				EC2824DF8E51DB12A5771B4D /* libPods-onekinsTests.a */,
+				E79E776906D638E152C71AF2 /* libPods-onekinsUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B88E6EB083A010ED6B84095 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A7DCB11A3B04E5883C04C /* Pods-onekins.debug.xcconfig */,
+				5E8FBC6F65EB5278FE94EC52 /* Pods-onekins.release.xcconfig */,
+				333F2A039168DF8E357EA547 /* Pods-onekinsTests.debug.xcconfig */,
+				FD299EF98CDE12B25AFEDB80 /* Pods-onekinsTests.release.xcconfig */,
+				31477B4A4ADF7424070748A3 /* Pods-onekinsUITests.debug.xcconfig */,
+				4E9C3BC078BE08ED8A1FAB04 /* Pods-onekinsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		555768A421EC39F40027C58C /* onekins */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555768D121EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekins" */;
+			buildPhases = (
+				1A66FC4887C45CEA21B78D30 /* [CP] Check Pods Manifest.lock */,
+				555768A121EC39F40027C58C /* Sources */,
+				555768A221EC39F40027C58C /* Frameworks */,
+				555768A321EC39F40027C58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onekins;
+			productName = onekins;
+			productReference = 555768A521EC39F40027C58C /* onekins.app */;
+			productType = "com.apple.product-type.application";
+		};
+		555768BC21EC39F60027C58C /* onekinsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555768D421EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekinsTests" */;
+			buildPhases = (
+				7AF2475B2B394E2B6B38A526 /* [CP] Check Pods Manifest.lock */,
+				555768B921EC39F60027C58C /* Sources */,
+				555768BA21EC39F60027C58C /* Frameworks */,
+				555768BB21EC39F60027C58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555768BF21EC39F60027C58C /* PBXTargetDependency */,
+			);
+			name = onekinsTests;
+			productName = onekinsTests;
+			productReference = 555768BD21EC39F60027C58C /* onekinsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		555768C721EC39F60027C58C /* onekinsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555768D721EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekinsUITests" */;
+			buildPhases = (
+				1117037DD446EB5846E2B738 /* [CP] Check Pods Manifest.lock */,
+				555768C421EC39F60027C58C /* Sources */,
+				555768C521EC39F60027C58C /* Frameworks */,
+				555768C621EC39F60027C58C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				555768CA21EC39F60027C58C /* PBXTargetDependency */,
+			);
+			name = onekinsUITests;
+			productName = onekinsUITests;
+			productReference = 555768C821EC39F60027C58C /* onekinsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5557689D21EC39F40027C58C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = siweisoft;
+				TargetAttributes = {
+					555768A421EC39F40027C58C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					555768BC21EC39F60027C58C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 555768A421EC39F40027C58C;
+					};
+					555768C721EC39F60027C58C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 555768A421EC39F40027C58C;
+					};
+				};
+			};
+			buildConfigurationList = 555768A021EC39F40027C58C /* Build configuration list for PBXProject "onekins" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5557689C21EC39F40027C58C;
+			productRefGroup = 555768A621EC39F40027C58C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				555768A421EC39F40027C58C /* onekins */,
+				555768BC21EC39F60027C58C /* onekinsTests */,
+				555768C721EC39F60027C58C /* onekinsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		555768A321EC39F40027C58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555768B521EC39F60027C58C /* LaunchScreen.storyboard in Resources */,
+				555768B221EC39F60027C58C /* Assets.xcassets in Resources */,
+				555768B021EC39F40027C58C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768BB21EC39F60027C58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768C621EC39F60027C58C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1117037DD446EB5846E2B738 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onekinsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A66FC4887C45CEA21B78D30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onekins-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF2475B2B394E2B6B38A526 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-onekinsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		555768A121EC39F40027C58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555768AD21EC39F40027C58C /* ViewController.m in Sources */,
+				555768B821EC39F60027C58C /* main.m in Sources */,
+				555768AA21EC39F40027C58C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768B921EC39F60027C58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555768C221EC39F60027C58C /* onekinsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555768C421EC39F60027C58C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555768CD21EC39F60027C58C /* onekinsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		555768BF21EC39F60027C58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555768A421EC39F40027C58C /* onekins */;
+			targetProxy = 555768BE21EC39F60027C58C /* PBXContainerItemProxy */;
+		};
+		555768CA21EC39F60027C58C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 555768A421EC39F40027C58C /* onekins */;
+			targetProxy = 555768C921EC39F60027C58C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		555768AE21EC39F40027C58C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555768AF21EC39F40027C58C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		555768B321EC39F60027C58C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				555768B421EC39F60027C58C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		555768CF21EC39F60027C58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		555768D021EC39F60027C58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		555768D221EC39F60027C58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2A7DCB11A3B04E5883C04C /* Pods-onekins.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		555768D321EC39F60027C58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E8FBC6F65EB5278FE94EC52 /* Pods-onekins.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekins/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekins;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		555768D521EC39F60027C58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 333F2A039168DF8E357EA547 /* Pods-onekinsTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onekins.app/onekins";
+			};
+			name = Debug;
+		};
+		555768D621EC39F60027C58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD299EF98CDE12B25AFEDB80 /* Pods-onekinsTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekinsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekinsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/onekins.app/onekins";
+			};
+			name = Release;
+		};
+		555768D821EC39F60027C58C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31477B4A4ADF7424070748A3 /* Pods-onekinsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onekins;
+			};
+			name = Debug;
+		};
+		555768D921EC39F60027C58C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9C3BC078BE08ED8A1FAB04 /* Pods-onekinsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FG83S5U636;
+				INFOPLIST_FILE = onekinsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = siweisoft.onekinsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = onekins;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555768A021EC39F40027C58C /* Build configuration list for PBXProject "onekins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555768CF21EC39F60027C58C /* Debug */,
+				555768D021EC39F60027C58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555768D121EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekins" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555768D221EC39F60027C58C /* Debug */,
+				555768D321EC39F60027C58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555768D421EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekinsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555768D521EC39F60027C58C /* Debug */,
+				555768D621EC39F60027C58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555768D721EC39F60027C58C /* Build configuration list for PBXNativeTarget "onekinsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				555768D821EC39F60027C58C /* Debug */,
+				555768D921EC39F60027C58C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5557689D21EC39F40027C58C /* Project object */;
+}
